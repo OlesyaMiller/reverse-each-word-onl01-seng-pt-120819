@@ -4,5 +4,5 @@ def reverse_each_word(sentence)
   sentence_to_array.each {
     |word| new_array << word.reverse()
   }
-  new_array
+  new_array.split(" ")
 end
